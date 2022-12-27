@@ -17,7 +17,7 @@ public class SwaggerConfig {
     public Docket api(){
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.ingeneo.logistica.controllers"))
+                .apis(RequestHandlerSelectors.basePackage("com.spring.pruebaTecnica.controllers"))
                 .paths(PathSelectors.any())
                 .build();
     }
