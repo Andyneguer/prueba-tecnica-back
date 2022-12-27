@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.Locale;
 
 /**
- * Manejador del loguin exitoso
+ * Manejador del login exitoso
  */
 @Component
 public class LoginSuccessHandler extends SimpleUrlAuthenticationSuccessHandler{
