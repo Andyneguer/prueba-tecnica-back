@@ -48,7 +48,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private JWTService jwtService;
 
     /**
-     * Se configuran y se agregan los filtro para las peticiones, en este caso de hagregan dos filtros
+     * Se configuran y se agregan los filtro para las peticiones, en este caso de agregan dos filtros
      * @param http
      * @throws Exception
      */
